@@ -5,6 +5,3 @@ hidden = [".config", "package-lock.json"]
 
 [nix]
 channel = "stable-23_05"
-
-[deployment]
-run = ["sh", "-c", "main.sh"]
