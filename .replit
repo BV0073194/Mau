@@ -1,0 +1,10 @@
+entrypoint = "main.sh"
+run = ["sh", "main.sh"]
+modules = ["nodejs-18:v3-20230608-f4cd419"]
+hidden = [".config", "package-lock.json"]
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["sh", "-c", "main.sh"]
